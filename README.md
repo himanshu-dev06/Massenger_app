@@ -30,11 +30,13 @@ I am developing this project step by step, starting with the user interface and 
 
 ### Main Interface
 
-![Messenger Home](messenger-home.png)
+![Messenger Home](<img width="385" height="600" alt="Screenshot 2026-11-03 120124" src="https://github.com/user-attachments/assets/1f953892-e5cb-4e5c-998e-cd1eb5f48520" />
+)
 
 ### Sending Messages
 
-![Message Sending](message-send.png)
+![Message Sending](<img width="297" height="742" alt="Screenshot 2026-11-03 120135" src="https://github.com/user-attachments/assets/9a8239dd-9fef-4a1c-8ae1-a985f0616b62" />
+)
 
 ## 📂 Project Structure
 
