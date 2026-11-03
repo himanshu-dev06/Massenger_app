@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"
+
+
+<head>
+    <meta charset="UTF-8"
+    <meta name="Viewport" content="Width=device-width, inital-sacle=1.0">
+
+ 
+    <title>My Massenger App</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+    <dev class="massenger">
+
+        <!_-- Sidebar --_>
+        <div class="Sidebar">
+            <h2>Messenger</h2>
+
+            <input type="text" placeholder="Search"
+            <div class="contact">
+                <div class="avatar">A</div>
+                <div>
+                    <h3>Alex</h3>
+                    <p>Hey! How are you?</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="avatar">S</div>
+                <div>
+                    <h3>Sarah</h3>
+                    <p>Good morning!</p>
+                </div>
+
+            </div>
+        </div>
+        <!_ -- Chat Area --_>
+        <div class="chat-area">
+
+            <div class="chat--header">>
+                <div class="avarat">A</div>
+            <div>
+                <h3>Alex</h3>
+                <p>online</p>
+            </div>
+
+        </div>
+
+
+        <div class="Messages">
+            <div class="message recevied">
+            Hello! How are you?
+            </div>
+
+            <div class="Message Send">
+            I'm good! Wath about you?
+
+            </div>
+
+            <div class="message recevied">
+            I'm doing Great!
+
+            </div>
+        </
+
+    </div>
+
+    <div class="message_input">
+        <input type="text" placeholder="Type a message....!">
+        <button>Send</button>
+
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
